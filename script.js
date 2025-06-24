@@ -305,7 +305,6 @@ function attachOptionEvents() {
     });
 }
 
-renderQuestion(currentQuestion);
 
 // Hàm xáo trộn mảng câu hỏi
 function shuffleArray(array) {
@@ -317,6 +316,8 @@ function shuffleArray(array) {
 
 // Tráo câu hỏi mỗi khi load lại trang
 shuffleArray(quizData);
+
+renderQuestion(currentQuestion);
 
 // Thêm hiệu ứng hover cho nút Play Again
 const style = document.createElement('style');
