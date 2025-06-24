@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1440">
+    <title>Chelsea Quiz</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700,italic&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Abhaya+Libre+ExtraBold&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="main-bg">
+        <header class="navbar">
+            <div class="navbar-left">
+                <img class="logo-img" src="img/chelsea.png" alt="logo" />
+                <span class="logo-divider"></span>
+                <img class="logo-img2" src="img/fpt.png" alt="logo2" />
+            </div>
+            <nav class="navbar-menu">
+                <a href="#" class="menu-item">Legend Moments</a>
+                <a href="#" class="menu-item">History Timeline</a>
+                <a href="#" class="menu-item">Did you know</a>
+                <a href="#" class="menu-item active">Blues Quiz</a>
+            </nav>
+        </header>
+        <div class="quiz-progress">
+            <span class="quiz-progress-current">1</span><span class="quiz-progress-total">/20</span>
+        </div>
+        <button class="next-btn" title="Next question">
+            <span class="next-arrow">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" style="display:inline;vertical-align:middle">
+                  <path d="M8 5l8 7-8 7" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+            </span>
+        </button>
+        <div class="quiz-question">
+            <!-- Nội dung câu hỏi sẽ được JS cập nhật -->
+        </div>
+        <div class="quiz-options">
+            <!-- Đáp án sẽ được JS cập nhật -->
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
