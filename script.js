@@ -6,7 +6,8 @@ const quizData = [
             "Old Trafford",
             "Stamford Bridge",
             "Wembley",
-            "Emirates"
+            "Emirates",
+            "Etihad Stadium"
         ],
         correct: 1
     },
@@ -16,7 +17,8 @@ const quizData = [
             "Red",
             "White",
             "Blue",
-            "Yellow"
+            "Yellow",
+            "Green"
         ],
         correct: 2
     },
@@ -26,7 +28,8 @@ const quizData = [
             "Petr Čech",
             "Frank Lampard",
             "John Obi Mikel",
-            "Ramires"
+            "Ramires",
+            "John Terry"
         ],
         correct: 1
     },
@@ -36,7 +39,8 @@ const quizData = [
             "Claudio Ranieri",
             "Carlo Ancelotti",
             "José Mourinho",
-            "Avram Grant"
+            "Avram Grant",
+            "Roberto Di Matteo"
         ],
         correct: 2
     },
@@ -46,7 +50,8 @@ const quizData = [
             "Fernando Torres",
             "Eden Hazard",
             "Didier Drogba",
-            "Nicolas Anelka"
+            "Nicolas Anelka",
+            "Frank Lampard"
         ],
         correct: 2
     },
@@ -56,7 +61,8 @@ const quizData = [
             "1",
             "2",
             "3",
-            "4"
+            "4",
+            "5"
         ],
         correct: 1
     },
@@ -66,7 +72,8 @@ const quizData = [
             "2017",
             "2018",
             "2019",
-            "2020"
+            "2020",
+            "2016"
         ],
         correct: 2
     },
@@ -76,7 +83,8 @@ const quizData = [
             "Benfica",
             "Sevilla",
             "Villarreal",
-            "Inter Milan"
+            "Inter Milan",
+            "Arsenal"
         ],
         correct: 0
     },
@@ -86,7 +94,8 @@ const quizData = [
             "Reece James",
             "Callum Hudson-Odoi",
             "Mason Mount",
-            "Kai Havertz"
+            "Kai Havertz",
+            "Tammy Abraham"
         ],
         correct: 3
     },
@@ -96,7 +105,8 @@ const quizData = [
             "John Terry",
             "Peter Bonetti",
             "Frank Lampard",
-            "Steve Clarke"
+            "Steve Clarke",
+            "Ron Harris"
         ],
         correct: 1
     },
@@ -106,7 +116,8 @@ const quizData = [
             "Frank Lampard",
             "Didier Drogba",
             "Juan Mata",
-            "Ashley Cole"
+            "Ashley Cole",
+            "David Luiz"
         ],
         correct: 1
     },
@@ -116,7 +127,8 @@ const quizData = [
             "Leicester City",
             "Arsenal",
             "PSG",
-            "Monaco"
+            "Monaco",
+            "Marseille"
         ],
         correct: 0
     },
@@ -126,7 +138,8 @@ const quizData = [
             "Didier Drogba",
             "Frank Lampard",
             "Gianfranco Zola",
-            "Cole Palmer"
+            "Cole Palmer",
+            "Nicolas Anelka"
         ],
         correct: 1
     },
@@ -136,7 +149,8 @@ const quizData = [
             "2003-04",
             "2004-05",
             "2005-06",
-            "2006-07"
+            "2006-07",
+            "2002-03"
         ],
         correct: 1
     },
@@ -146,7 +160,8 @@ const quizData = [
             "Claudio Ranieri",
             "Avram Grant",
             "Carlo Ancelotti",
-            "Guus Hiddink"
+            "Guus Hiddink",
+            "Gianluca Vialli"
         ],
         correct: 0
     },
@@ -156,7 +171,8 @@ const quizData = [
             "Didier Drogba",
             "Frank Lampard",
             "Nicolas Anelka",
-            "Salomon Kalou"
+            "Salomon Kalou",
+            "Florent Malouda"
         ],
         correct: 3
     },
@@ -166,7 +182,8 @@ const quizData = [
             "Real Madrid",
             "Atletico Madrid",
             "Bayern Munich",
-            "Barcelona"
+            "Barcelona",
+            "Juventus"
         ],
         correct: 0
     },
@@ -176,7 +193,8 @@ const quizData = [
             "4",
             "5",
             "6",
-            "26"
+            "26",
+            "8"
         ],
         correct: 3
     },
@@ -186,7 +204,8 @@ const quizData = [
             "Carlo Cudicini",
             "Petr Čech",
             "Thibaut Courtois",
-            "Ed de Goey"
+            "Ed de Goey",
+            "Mark Bosnich"
         ],
         correct: 1
     },
@@ -196,7 +215,8 @@ const quizData = [
             "Spain",
             "Italy",
             "France",
-            "Portugal"
+            "Portugal",
+            "Germany"
         ],
         correct: 1
     }
