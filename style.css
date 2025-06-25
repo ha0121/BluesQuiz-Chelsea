@@ -92,7 +92,7 @@ body, html {
     left: 40px; /* Trùng với lề trái của logo ở navbar-left */
     top: 172px;
     display: flex;
-    align-items: flex-end;
+    align-items: center; /* Đổi từ flex-end sang center để căn giữa theo chiều dọc */
     gap: 0;
     flex-direction: row;
     z-index: 3; /* Đảm bảo nổi lên trên header */
@@ -115,7 +115,7 @@ body, html {
 .next-btn {
     position: absolute;
     right: 48px;
-    top: 164px;
+    top: 172px; /* Đặt cùng top với .quiz-progress để mũi tên ngang hàng */
     width: 48px;
     height: 48px;
     background: none;
@@ -257,5 +257,83 @@ body, html {
     .quiz-options {
         width: 90vw;
         margin-top: 24px;
+    }
+    .quiz-progress {
+        left: 16px;
+        top: 120px;
+    }
+    .next-btn {
+        right: 16px;
+        top: 112px;
+    }
+    .navbar {
+        height: 64px;
+    }
+    .logo-img, .logo-img2 {
+        width: 32px;
+        height: 32px;
+    }
+    .logo-divider {
+        height: 24px;
+    }
+    .navbar-left {
+        margin-left: 12px;
+    }
+    .navbar-menu {
+        gap: 16px;
+        font-size: 14px;
+    }
+    .option-btn {
+        font-size: 20px;
+        padding: 10px 12px;
+        border-radius: 24px;
+    }
+    .option-number {
+        width: 28px;
+        height: 28px;
+        font-size: 18px;
+    }
+    .quiz-progress-current, .quiz-progress-total {
+        font-size: 32px;
+    }
+}
+
+@media (max-width: 600px) {
+    .quiz-question {
+        font-size: 18px;
+        margin-top: 32px;
+    }
+    .quiz-options {
+        gap: 8px;
+    }
+    .option-btn {
+        font-size: 14px;
+        padding: 8px 8px;
+        border-radius: 16px;
+    }
+    .option-number {
+        width: 20px;
+        height: 20px;
+        font-size: 12px;
+    }
+    .quiz-progress-current, .quiz-progress-total {
+        font-size: 18px;
+    }
+    .navbar {
+        height: 44px;
+    }
+    .logo-img, .logo-img2 {
+        width: 20px;
+        height: 20px;
+    }
+    .logo-divider {
+        height: 14px;
+    }
+    .navbar-left {
+        margin-left: 4px;
+    }
+    .navbar-menu {
+        gap: 6px;
+        font-size: 10px;
     }
 }
